@@ -1,3 +1,10 @@
+About this Fork
+---------------
+
+As you may know, networking-onos is no longer supported as an ML2 plugin in Neutron. This fork, specifically the last commit, adds support for Openstack Yoga and OpenStack Zed.
+
+It has been validated with the master branch of DevStack as of 2022-09-20.
+
 Word about ONOS
 ---------------
 
