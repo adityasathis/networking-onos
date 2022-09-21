@@ -42,11 +42,11 @@ class SecurityGroupDriver(object):
                                                             post_call)
 
     def sync_from_callback_precommit(self, context, operation, res_type,
-                                     res_id, resource_dict):
+                                     res_id, resource_dict, **kwargs):
         pass
 
     def sync_from_callback_postcommit(self, context, ops, res_type, res_id,
-                                      res):
+                                      res, payload):
         LOG.debug("sync_from_callback_postcommit is called.")
         if res_type is onos_const.ONOS_SG:
             if ops is onos_const.ONOS_CREATE:

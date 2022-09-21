@@ -64,7 +64,7 @@ function install_onos {
 function install_onos_neutron_thin_ml2_driver {
     cd $NETWORKING_ONOS_DIR
     echo "Installing the Networking-ONOS driver for ONOS"
-    sudo python setup.py install
+    sudo python3 setup.py install
 }
 
 
